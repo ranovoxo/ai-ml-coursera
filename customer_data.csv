@@ -1,0 +1,11 @@
+CustomerID,Name,Email,JoinDate,Country,Age,Income,Gender,Subscribed
+001,John Smith,john.smith@example.com,2023/01/15,USA,29,55000,Male,Yes
+002,Jane Doe,jane_doe@example,15-02-2023,United States, ,72000,Female,Yes
+003,Tom Lee,tomlee123@example.com,2023-03-05,UK,45,54000,M,No
+004,Anna Zhang,anna@example.com,2023.04.12,Canada,32,NaN,F,yes
+005,,michael@example.com,2023-05-01,CA,28,49000,Male,No
+006,David Kim,david.kim@example.com,2023-05-21,South Korea,35,61000,Male,Yes
+007,Sara Ali,sara.ali@example.com,05/30/2023,UAE,27,53000,Female,Y
+008,John Smith,john.smith@example.com,2023/01/15,USA,29,55000,Male,Yes
+009,Linda O’Brien,linda.obrien@sample,2023-07-10,Ireland,31,58000,Female,No
+010,José García,jose.garcia@example.com,2023-08-02,MX,NaN,62000,Male,Yes
