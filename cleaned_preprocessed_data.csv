@@ -1,0 +1,11 @@
+CustomerID,Income_0.0,Income_0.17391304347826075,Income_0.21739130434782616,Income_0.26086956521739113,Income_0.3913043478260869,Income_0.5217391304347827,Income_0.5652173913043477,Income_1.0
+0.0,False,False,False,True,False,False,False,False
+0.1111111111111111,False,False,False,False,False,False,False,True
+0.2222222222222222,False,False,True,False,False,False,False,False
+0.3333333333333333,False,False,False,True,False,False,False,False
+0.4444444444444445,True,False,False,False,False,False,False,False
+0.5555555555555556,False,False,False,False,False,True,False,False
+0.6666666666666665,False,True,False,False,False,False,False,False
+0.7777777777777777,False,False,False,True,False,False,False,False
+0.8888888888888888,False,False,False,False,True,False,False,False
+1.0,False,False,False,False,False,False,True,False

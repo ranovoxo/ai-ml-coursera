@@ -41,3 +41,20 @@ upper_limit = df['Income'].quantile(0.95)
 df['Income'] = np.where(df['Income'] > upper_limit, upper_limit, df['Income'])
 
 print(df)
+
+# min-max scaling
+scaler = MinMaxScaler()
+df_scaled = pd.DataFrame(scaler.fit_transform(numeric_df), columns=numeric_df.columns)
+
+# z-score Standardization
+scaler = StandardScaler()
+df_standardized = pd.DataFrame(scaler.fit_transform(numeric_df), columns=numeric_df.columns)
+
+# one-hot encoding for categorical variables
+df_encoded = pd.get_dummies(df_scaled, columns=['Income'])
+
+print(df_encoded)
+
+df_encoded.to_csv('cleaned_preprocessed_data.csv', index=False)
+
+
